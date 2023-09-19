@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+body{
+  background-image: URL(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg);
+  object-fit: cover;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.center-items{
+  align-items: center;
+}
+
+/* Navbar */
+
+nav{
+  align-items: center;
+  background-color: transparent;
+}
+
+nav a{
+  font-size: 30px;
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.754);
+  color: white;
+}
+
+nav a:hover{
+  background-color: rgba(17, 136, 210, 0.25);
+}
+
+h3{
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  background-color: rgba(17, 136, 210, 0.75);
+}
+
+/* Cards */
+
+.projects{
+  margin-top: 100px;
+  height: 600px;
+  justify-content: center;
+}
+
+.card{
+  background-color: rgba(0,0,0, .20);
+  border-radius: 25px;
+  position: absolute;
+  transition: transform 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.big-card{  
+  height: 500px;
+}
+
+.small-card{
+  height: 200px;
+  transform: translateY(50%);
+}
+
+.big-card, .small-card{
+  aspect-ratio: 5/7;
+}
+
+.projects:hover > .big-card:nth-child(1){
+  transform: translate(-125%, 10%) rotate(-20deg);
+}
+.projects:hover > .big-card:nth-child(2){
+  transform: translate(-45%) rotate(-10deg);
+}
+.projects:hover > .big-card:nth-child(3){
+  transform: translate(45%) rotate(4deg);
+}
+.projects:hover > .big-card:nth-child(4){
+  transform: translate(130%, 15%) rotate(16deg);
+}
+
+.projects:hover > .small-card:nth-child(5){
+  transform: translate(-425%, -5%) rotate(20deg);
+}
+.projects:hover > .small-card:nth-child(6){
+  transform: translate(-485%, 115%) rotate(-40deg);
+}
+.projects:hover > .small-card:nth-child(7){
+  transform: translate(425%, -5%) rotate(-20deg);
+}
+.projects:hover > .small-card:nth-child(8){
+  transform: translate(485%, 175%) rotate(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -56,6 +56,11 @@ h3{
 
 /* Cards */
 
+img{
+  width: 100%;
+  border-radius: 25px;
+}
+
 .projects{
   margin-top: 100px;
   height: 600px;
@@ -107,22 +112,3 @@ h3{
 .projects:hover > .small-card:nth-child(8){
   transform: translate(485%, 175%) rotate(0deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

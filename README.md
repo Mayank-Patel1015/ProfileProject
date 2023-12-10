@@ -1,4 +1,4 @@
-# WebFundProject
+# Profile Project
 
 ## Used HTML and CSS to create a unique hover effect where the stacked images spread outwards.
 
